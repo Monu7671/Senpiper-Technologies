@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.form-check-input:checked{
+  background-color: rgb(119, 19, 176) !important;
+     border: none;
+}
+.bi-search{
+  margin-left: -10%;
+  cursor: pointer;
+}
+
+
+.warning-text{
+  border: 1px solid red;
+  margin-top: 5px;
+  padding: 5px;
+  color: red;
+  background-color: #ffeced;
+}
+.warning-text > i{
+ margin-right: 5px;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: separate;
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+}
+
+ tr, td, th {
+  border: 1px solid black;
+}
+th{
+  background-color: #282c34;
+  color: white;
+  padding: 5px;
+  
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
